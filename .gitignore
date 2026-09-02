@@ -1,0 +1,36 @@
+# colcon 산출물
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+
+# 비밀값
+.env
+
+# 대용량 — LFS나 DVC로 별도 관리
+*.pt
+*.pth
+*.onnx
+*.engine
+*.usd
+*.usda
+*.dae
+*.stl
+*.bag
+*.db3
+*.mcap
+datasets/
+runs/
+
+# 대용량 — 서드파티 vendored 에셋(텍스처 등), 소스 트리는 그대로 둠
+isaacpjt/**/*.png
+
+# 에디터·OS
+.vscode/
+.idea/
+.DS_Store
