@@ -30,6 +30,13 @@ runs/
 # 대용량 — 서드파티 vendored 에셋(텍스처 등), 소스 트리는 그대로 둠
 isaacpjt/**/*.png
 
+# isaacpjt — 통째로 vendored된 서드파티 프로젝트/에셋 (구동 python 코드는 제외 대상 아님)
+isaacpjt/orbit-surgical/
+isaacpjt/i4h-asset-catalog/
+isaacpjt/*/doosan-robot2/
+isaacpjt/M0609/onrobot_rg2/
+isaacpjt/vaccum_gripper/Collected_*/
+
 # 에디터·OS
 .vscode/
 .idea/
